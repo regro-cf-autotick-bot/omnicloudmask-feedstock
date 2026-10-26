@@ -1,13 +1,13 @@
 {% set name = "omnicloudmask" %}
-{% set version = "1.7.1" %}
+{% set version = "1.8.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/omnicloudmask-{{ version }}.tar.gz
-  sha256: 223e2bed5529e24e693810e897a0bad19eb9f9b20255aef1fab6145bfb62b3e0
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/omnicloudmask-{{ version }}.tar.gz
+  sha256: 691cab8d842ad8de08183c6f0c6f1f1720a43c27803b4d689480281b5fbe018a
 
 build:
   noarch: python
